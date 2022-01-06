@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C73E11B-27E7-4DF3-9622-106808D7492C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ExemploAcessoDB2</RootNamespace>
+    <AssemblyName>ExemploAcessoDB2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\Cliente.cs" />
+    <Compile Include="Code\PDP.cs" />
+    <Compile Include="Code\Produto.cs" />
+    <Compile Include="Forms\Cliente\I_ManCliente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cliente\I_ManCliente2.Designer.cs">
+      <DependentUpon>I_ManCliente2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cliente\I_CadCliente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cliente\I_CadCliente2.Designer.cs">
+      <DependentUpon>I_CadCliente2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\I_ManCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\I_ManCliente.Designer.cs">
+      <DependentUpon>I_ManCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\I_ManProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\I_ManProduto.Designer.cs">
+      <DependentUpon>I_ManProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\I_MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\I_MenuPrincipal.Designer.cs">
+      <DependentUpon>I_MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\I_ManPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\I_ManPedido.Designer.cs">
+      <DependentUpon>I_ManPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Pedido.cs" />
+    <Compile Include="Forms\Pedidos\I_CadPedidos2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\I_CadPedidos2.Designer.cs">
+      <DependentUpon>I_CadPedidos2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pedidos\I_ManPedidos2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\I_ManPedidos2.Designer.cs">
+      <DependentUpon>I_ManPedidos2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Produto\I_CadProduto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Produto\I_CadProduto2.Designer.cs">
+      <DependentUpon>I_CadProduto2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Produto\I_ManProduto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Produto\I_ManProduto2.Designer.cs">
+      <DependentUpon>I_ManProduto2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Log-in.cs" />
+    <Compile Include="Login\I_Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\I_Cadastro.Designer.cs">
+      <DependentUpon>I_Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\I_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\I_Login.Designer.cs">
+      <DependentUpon>I_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Cliente\I_ManCliente2.resx">
+      <DependentUpon>I_ManCliente2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cliente\I_CadCliente2.resx">
+      <DependentUpon>I_CadCliente2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\I_ManCliente.resx">
+      <DependentUpon>I_ManCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\I_ManProduto.resx">
+      <DependentUpon>I_ManProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\I_MenuPrincipal.resx">
+      <DependentUpon>I_MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\I_ManPedido.resx">
+      <DependentUpon>I_ManPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\I_CadPedidos2.resx">
+      <DependentUpon>I_CadPedidos2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\I_ManPedidos2.resx">
+      <DependentUpon>I_ManPedidos2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Produto\I_CadProduto2.resx">
+      <DependentUpon>I_CadProduto2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Produto\I_ManProduto2.resx">
+      <DependentUpon>I_ManProduto2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\I_Cadastro.resx">
+      <DependentUpon>I_Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\I_Login.resx">
+      <DependentUpon>I_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="oCliente\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

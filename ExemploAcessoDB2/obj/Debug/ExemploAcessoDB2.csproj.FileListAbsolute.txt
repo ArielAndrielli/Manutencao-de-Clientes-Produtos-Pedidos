@@ -1,0 +1,35 @@
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.csproj.AssemblyReference.cache
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Properties.Resources.resources
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.csproj.GenerateResource.cache
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.csproj.CoreCompileInputs.cache
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\ExemploAcessoDB2.exe.config
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\ExemploAcessoDB2.exe
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\ExemploAcessoDB2.pdb
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\MySql.Data.dll
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.exe
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.pdb
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_ManCliente.resources
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_ManProduto.resources
+C:\Users\aars\source\repos\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_MenuPrincipal.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\ExemploAcessoDB2.exe.config
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\ExemploAcessoDB2.exe
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\ExemploAcessoDB2.pdb
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\bin\Debug\MySql.Data.dll
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.csproj.AssemblyReference.cache
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_ManCliente.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_ManProduto.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_MenuPrincipal.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Properties.Resources.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.csproj.GenerateResource.cache
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.csproj.CoreCompileInputs.cache
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.exe
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.pdb
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_ManCliente2.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_CadCliente2.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_CadProduto2.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.I_ManProduto2.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Forms.Pedidos.I_ManPedido.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Forms.Pedidos.I_ManPedidos2.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Forms.Pedidos.I_CadPedidos2.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Login.I_Login.resources
+C:\Users\aars\Documents\Curso C#\VS\ExemploAcessoDB2\ExemploAcessoDB2\obj\Debug\ExemploAcessoDB2.Login.I_Cadastro.resources

@@ -1,22 +1,22 @@
 ﻿using ExemploAcessoDB2.Forms.Pedidos;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ExemploAcessoDB2
 {
     public partial class I_MenuPrincipal : Form
     {
+
+        #region Construtor
+
         public I_MenuPrincipal()
         {
             InitializeComponent();
         }
+
+        #endregion
+
+        #region Eventos
 
         private void btnCliente_Click(object sender, EventArgs e)
         {
@@ -60,6 +60,7 @@ namespace ExemploAcessoDB2
             manPedidos.Show();
         }
 
-        
+        #endregion
+
     }
 }

@@ -28,6 +28,8 @@ namespace ExemploAcessoDB2.Code
 
         #endregion
 
+        #region Métodos
+
         public void Incluir()
         {
             HasError = false;
@@ -313,5 +315,8 @@ namespace ExemploAcessoDB2.Code
                     command.Dispose();
             }
         }
+
+        #endregion
+
     }
 }

@@ -115,16 +115,16 @@
       <DependentUpon>I_ManProduto2.cs</DependentUpon>
     </Compile>
     <Compile Include="Code\Log-in.cs" />
-    <Compile Include="Login\I_Cadastro.cs">
+    <Compile Include="Forms\Login\I_Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login\I_Cadastro.Designer.cs">
+    <Compile Include="Forms\Login\I_Cadastro.Designer.cs">
       <DependentUpon>I_Cadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login\I_Login.cs">
+    <Compile Include="Forms\Login\I_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login\I_Login.Designer.cs">
+    <Compile Include="Forms\Login\I_Login.Designer.cs">
       <DependentUpon>I_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -159,10 +159,10 @@
     <EmbeddedResource Include="Forms\Produto\I_ManProduto2.resx">
       <DependentUpon>I_ManProduto2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login\I_Cadastro.resx">
+    <EmbeddedResource Include="Forms\Login\I_Cadastro.resx">
       <DependentUpon>I_Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login\I_Login.resx">
+    <EmbeddedResource Include="Forms\Login\I_Login.resx">
       <DependentUpon>I_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -188,8 +188,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="oCliente\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

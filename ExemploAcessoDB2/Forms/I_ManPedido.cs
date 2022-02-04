@@ -14,13 +14,23 @@ namespace ExemploAcessoDB2.Forms.Pedidos
     public partial class I_ManPedido : Form
     {
 
-        private Pedido oPedido = new Pedido();
-        private Cliente oCliente = new Cliente();
+        #region Construtor
 
         public I_ManPedido()
         {
             InitializeComponent();
         }
+
+        #endregion
+
+        #region Atributos
+
+        private Pedido oPedido = new Pedido();
+        private Cliente oCliente = new Cliente();
+
+        #endregion
+
+        #region Eventos
 
         private void I_CadPedido_Load(object sender, EventArgs e)
         {
@@ -67,14 +77,6 @@ namespace ExemploAcessoDB2.Forms.Pedidos
 
             #endregion
 
-            #region operação
-
-
-
-            #endregion
-
-            #region Tratamento tela
-            #endregion
         }
 
         private void btnInserir_Click(object sender, EventArgs e)
@@ -211,5 +213,8 @@ namespace ExemploAcessoDB2.Forms.Pedidos
                 txtPedido.Text = row.Cells[0].Value.ToString();
             }
         }
+
+        #endregion
+
     }
 }

@@ -28,6 +28,8 @@ namespace ExemploAcessoDB2
 
         #endregion
 
+        #region Eventos
+
         private void I_ManCliente_Load(object sender, EventArgs e)
         {
             DataTable result = oCliente.Listar(string.Empty);
@@ -283,6 +285,8 @@ namespace ExemploAcessoDB2
                 txtCPF.Text = row.Cells[2].Value.ToString();
             }
         }
+
+        #endregion
 
     }
 

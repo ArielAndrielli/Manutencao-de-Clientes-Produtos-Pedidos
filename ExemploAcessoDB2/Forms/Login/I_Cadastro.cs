@@ -28,6 +28,8 @@ namespace ExemploAcessoDB2.Login
 
         #endregion
 
+        #region Evento
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             #region Verificações
@@ -72,5 +74,8 @@ namespace ExemploAcessoDB2.Login
 
             #endregion
         }
+
+        #endregion
+
     }
 }

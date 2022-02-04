@@ -13,6 +13,7 @@ namespace ExemploAcessoDB2.Forms.Pedidos
 {
     class Pedido
     {
+
         #region Atributos
 
         private const string connectionString = "Server=localhost;User=root;Password=sql$user;Database=dbteste;";
@@ -385,8 +386,6 @@ namespace ExemploAcessoDB2.Forms.Pedidos
 
             return result;
         }
-
-
 
         #endregion
     }
